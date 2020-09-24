@@ -6,7 +6,7 @@ import "./styles.css";
 class Container extends Component {
 
   state = {
-    
+    //setting the component's original state
     search: "",
     employees: [],
     sortedEmployees: [],
@@ -20,7 +20,7 @@ class Container extends Component {
       sortedEmployees: res.data.results
     })).catch(err => console.log(err))
   }
-
+  //show employees by ascending / descending order
   sortByName = () => {
 
     const sorted = this.state.sortedEmployees;
@@ -44,7 +44,7 @@ class Container extends Component {
         })
     }
   }
-
+  
   handleInputChange = event => {
 
     const employees = this.state.employees;
