@@ -7,3 +7,7 @@ This is an employee directory that allows a user to view their entire staff at o
 # Deployed Website
 
 The deployed site can be found [here](https://jblong27.github.io/employee-directory/)
+
+# Preview
+
+![image](https://user-images.githubusercontent.com/51770348/94299387-37066a80-ff2d-11ea-942d-6c68275433bf.png)
