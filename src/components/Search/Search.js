@@ -13,7 +13,7 @@ function Search(props) {
           <div className="col s6">
             <div className="col s6 inputAndButton right-align">
               <input
-                onchange={props.handleInputChange}
+                onChange={props.handleInputChange}
                 value={props.value}
                 id="employees"
                 type="text"

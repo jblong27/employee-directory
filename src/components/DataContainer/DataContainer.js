@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import Search from "../Search";
-import DataTable from "../DataTable";
-import "./styles.css";
+import Search from "../Search/Search";
+import API from "../../utils/API";
+import DataTable from "../DataTable/DataTable";
+import "../styles.css";
 
 class Container extends Component {
 
@@ -71,7 +72,7 @@ class Container extends Component {
     }
     const { employees, search } = this.state;
 
-    const sortedEmployees = employees.filter(employee => employee.name.first.toLowerCase().includes(search.toLocaleLowerCase()));
+    const sortedEmployees = employees.filter(employee => employee.name.first.toLowerCase().includes(search.toLowerCase()));
 
     this.setState({
       sortedEmployees

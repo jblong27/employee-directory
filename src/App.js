@@ -1,15 +1,11 @@
 import React from 'react';
 import './App.css';
-import Main from "./components/Main";
-import Wrapper from "./components/Wrapper";
-import Header from "./components/Header";
+import DataContainer from "./components/DataContainer/DataContainer";
 
 function App() {
   return (
-    <Wrapper>
-      <Header />
-      <Main />
-    </Wrapper>
+    <DataContainer />
+
   );
 }
 
